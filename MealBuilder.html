@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Workout and Meal Plan Generator</title>
+  <script src="js/fitness.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="css/MealBuilder.css">
+</head>
+
+<body>
+  <button hidden="true" id="generate-workout-button">
+    <!-- Kept getting error saying this was null and page couldnt run... this fixes it-->
+  </button>
+  <nav>
+    <ul>
+      <img src="img/logo.png" class="Logo" width="80" length="80" alt="Logo" />
+      <div>
+        <li><a href="fitness.html">Home</a></li>
+        <li><a href="Goals.html">Goals</a></li>
+        <li><a href="MealBuilder.html">Meal builder</a></li>
+        <li><a href="workout.html">Work-out Plans</a></li>
+
+        <li><a href="Contactus.html">Contact Us</a></li>
+      </div>
+    </ul>
+  </nav>
+  <p>
+    At our gym, we pride ourselves on providing personalized and tailored fitness plans for each and every one of our
+    members. In order to do so, we kindly request that you provide us with your height, weight, gender, any health
+    conditions you may have, your current level of physical activity, your current meal plan, and your fitness goals.
+    With this information, we will be able to create a custom meal plan that will help you achieve your desired results.
+  </p>
+  <h2>Enter your health information: </h2>
+  <br>
+  <!--https://stackoverflow.com/questions/17164278/disable-writing-in-input-type-number-html5-->
+  <form>
+    <label for="weight">Weight <input id="weight" value="weight" type="number" min="70" placeholder="lbs"> </label>
+
+    <label for="height">Height <input id="HeightFt" value="HeightFt" type="number" min="2" max="10" placeholder="Feet"
+        onKeyDown="return false">
+      <input id="HeightInch" value="HeightInch" type="number" min="0" max="12" placeholder="Inches"
+        onKeyDown="return false"> </label>
+    <label for="age">Age <input id="age" value="age" type="number" min="16"> </label>
+    <label for="gender">Gender </label>
+    <select name="gender" id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <label for="activityDropdownLabel"> What is your activity level? </label>
+    <select name="activitySelect" id="activitySelect">
+      <option value="none">Select an Option</option>
+      <option value="sedentary">Sedentary</option>
+      <option value="light">Light</option>
+      <option value="moderate">Moderate</option>
+      <option value="active">Active</option>
+      <option value="very active">Very Active</option>
+    </select>
+
+    <label for="healthConditions"> Do you have any health conditions? </label>
+    <select name="healthSelect" id="healthSelect">
+      <option value="none">Select an Option</option>
+      <option value="noHealthIssues">No Health Conditions</option>
+      <option value="diabetes">Diabetes</option>
+      <option value="hypertension">Hypertension</option>
+      <option value="cardiac issues">Cardiac Issues</option>
+    </select>
+    <label for="goal"> What is your fitness goal? </label>
+    <select name="goal" id="goal">
+      <option value="none">Select an Option</option>
+      <option value="Lose Weight">Lose Weight</option>
+      <option value="Gain Muscle">Gain Muscle</option>
+      <option value="Maintain">Maintain</option>
+    </select>
+    <label for="mealPlanType"> What type of meal plan do you want to follow? </label>
+    <select name="mealPlanType" id="mealPlanType">
+      <option value="none">Select an Option</option>
+      <option value="vegan">Vegan</option>
+      <option value="vegetarian">Vegetarian</option>
+      <option value="pescatarian">Pescatarian</option>
+      <option value="low carb">Low Carb</option>
+      <option value="high protein">High Protein</option>
+    </select>
+  </form>
+
+  <button id="generate-meal-plan-button">Generate Meal Plan</button>
+  <b><div id="displayMealPlanAndCal"></div></b>
+</body>
+
+</html>

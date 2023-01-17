@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us page </title>
+    <script src="js/fitness.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/contact_us.css">
+</head>
+
+<body>
+    <button hidden="true" id="generate-workout-button">
+        <!-- Kept getting error saying this was null and page couldnt run... this fixes it-->
+    </button>
+    <button hidden="true" id="generate-meal-plan-button">
+        <!-- Kept getting error saying this was null and page couldnt run... this fixes it-->
+    </button>
+    <nav>
+        <ul>
+          <img
+            src="img/logo.png"
+            class="Logo"
+            width="80"
+            length="80"
+            alt="Logo"
+          />
+          <div>
+          <li><a href="fitness.html">Home</a></li>
+          <li><a href="Goals.html">Goals</a></li>
+          <li><a href="MealBuilder.html">Meal builder</a></li>
+          <li><a href="workout.html">Work-out Plans</a></li>
+    
+          <li><a href="Contactus.html">Contact Us</a></li>
+        </div>
+        </ul>
+      </nav>
+    <address>
+        <section>
+            <section id="Contact Us"></a>
+                <div>
+                    <h1>Contact Us </h1>
+                    <h3> If you have any questions of inquiries please do hesitate to contact us either through our
+                    </h3>
+                    <p>
+                        <label for="our Number">Our Number:</label>+1 (509)2894758<br>
+                        <label for="our email">Our Email:</label>foodlover@gym.com
+                    </p>
+
+
+                    <h3>Come and join our emailing list to as to get our monthly healthy
+                        newsletters</h3>
+                    <p>
+
+                    <form>
+                        <label for="Your email">Your email:</label>
+                        <input type="email" id="Your email" name="Your email" placeholder="email@gmail.com">
+                        <input type="button" value="Submit" onclick="submitForm()">
+                    </form>
+
+                    </p>
+                </div>
+
+            </section>
+    </address>
+
+</body>
+
+</html>

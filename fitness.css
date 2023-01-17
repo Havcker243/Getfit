@@ -1,0 +1,191 @@
+/* h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333;
+    text-align: center;
+    margin: 50px 0;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #333;
+    text-align: center;
+    margin: 50px 0;
+  }
+body {
+    background-image: url("/Users/user/YOUNGG/CLASSES/WHITWORTH/SOPHOMORE/CS301 Internet App Dev/groupProjects/GP3_JAVASCRIPT_Somen/apps/img/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* makes nav bar that stays at the top of the page */
+/* nav {
+    width: 80%;
+    max-width: 1200px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #777;
+}
+
+
+nav ul {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: background-color 0.2s ease;
+}
+
+nav ul ul {
+    /* hides sublist menu items */
+/* display: none;
+}  */
+
+/* list elements position is relative and are centers in one row */
+/* nav ul li {
+    float: left;
+    position: relative;
+    background: none;
+} */
+/* displays block when mouse hovers */
+/* 
+nav ul li:hover>ul {
+    
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+} */
+
+/* nav ul li p{
+    padding: 0px;
+}
+
+/* list links */
+/* nav ul li a {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: #343027;
+    text-decoration: none;
+} */
+
+/* changes list links color when hovering */
+/* nav ul li:hover a {
+    color: #e5d6c8;
+} */
+
+/* sublist elements position is relative */
+/* nav ul ul li {
+    float: none;
+    position: relative;
+} */
+
+/* changes background color of sublist link when hovering */
+/* nav ul ul li:hover a {
+    background-color: #dea267;
+
+} */
+
+/* sublist background and position
+nav ul ul {
+    background: #dcb48c;
+    border-radius: 0px;
+    position: absolute;
+}
+p {
+    width: 80%;
+    max-width: 1200px;
+    height: 350px;
+    font-size: medium;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #777;
+}  */
+
+body {
+    background-color: #e0d9d9;
+    /* Light gray */
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: #fff;
+    /* Dark gray */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+
+
+/* Headings */
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: rgb(104, 101, 101);
+    ;
+    /* Light blue */
+    text-align: center;
+    color: rgba(204, 186, 186, 0.815);
+    /* white text */
+    text-shadow: 1px 1px 2px #000;
+    /* small black shadow */
+
+}
+h3{
+    text-align: left;
+    padding: 30px;
+}
+
+/* Navigation */
+nav {
+    background-color: #1b1d1d;
+    /* Light blue */
+    display: flex;
+}
+
+.Logo {
+    float: right;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 50px 50px;
+    font-size: larger;
+}
+
+div li {
+    float: left;
+}
+
+nav a {
+    color: rgb(160, 148, 148);
+    text-decoration: none;
+}
+
+ul div li {
+    float: left;
+    padding-left: 70px;
+}
+
+/* displays block when mouse hovers  */
+
+nav ul div li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Main content */

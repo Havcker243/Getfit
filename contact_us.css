@@ -1,0 +1,110 @@
+body {
+    background-color: #e0d9d9;
+    /* Light gray */
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: #fff;
+    /* Dark gray */
+    margin: 0;
+    padding: 0;
+    filter: brightness(2);
+    font-size: large;
+    font-size: 18px;
+    line-height: 1.5;
+  } 
+  
+  p {
+    color: black;
+  }
+  
+  /* Headings */
+  h1,h2,h3 {
+    text-align: center;
+    color: black;
+    /* Light blue */
+    text-align:center;
+  }
+  
+  nav ul div li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+  /* Navigation */
+  nav {
+    background-color: #1b1d1d;
+    /* Light blue */
+    display: flex;
+  } 
+  .Logo
+  {
+    float:right;
+    text-align: right;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin:0  50px 50px;
+    font-size:larger;
+  }
+  div li{
+    float:left;
+  }
+  nav a {
+    color: rgb(160, 148, 148);
+    text-decoration: none;
+  }
+  
+  ul div li {
+    float: left;
+    padding-left: 70px;
+  }
+  
+  /* Main content */
+  p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  /* Form container styles */
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Form input styles */
+form input, form textarea, form select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Form label styles */
+form label {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: black
+}
+
+/* Form button styles */
+form button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Form button hover styles */
+form button:hover {
+    background-color: #0056b3;
+}
